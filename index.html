@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>DOM Manipulation Example</title>
+    <meta
+      name="description"
+      content="An example of DOM manipulation using JavaScript"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">JavaScript DOM Manipulation Cheatsheet</header>
+    <div class="container">
+      <h1 class="title">DOM Cheatsheet</h1>
+      <p class="description">Learn DOM manipulation with examples.</p>
+
+      <section id="selectors">
+        <h2>Selectors</h2>
+        <button id="change-header">Change Header Text</button>
+      </section>
+
+      <section id="styling">
+        <h2>Styling</h2>
+        <button id="toggle-theme">Toggle Dark Theme</button>
+        <div id="color-box" class="box"></div>
+      </section>
+
+      <section id="content">
+        <h2>Content Update</h2>
+        <input type="text" id="dynamic-text" placeholder="Enter text here" />
+        <button id="update-content">Update Content</button>
+        <p id="output">Dynamic content will appear here.</p>
+      </section>
+
+      <section id="element-creation">
+        <h2>Element Creation</h2>
+        <ul id="dynamic-list"></ul>
+        <button id="add-list-item">Add List Item</button>
+        <button id="remove-list-item">Remove Last Item</button>
+      </section>
+
+      <section id="event-handling">
+        <h2>Event Handling</h2>
+        <button id="hover-me">Hover Over Me</button>
+        <p id="hover-output">Hover over the button above.</p>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
